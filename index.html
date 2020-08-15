@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Remita Validation SignUp Page</title>
+  </head>
+  <body>
+    <section id="nav-section" class="d-none d-sm-block">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img class="img" src="./images/remita logo 1.png"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-lg-auto text-success">
+                <a class="nav-item nav-link active text-white" href="#">About <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link text-white" href="#"></a>       
+                <a class="nav-item nav-link text-white" href="#">Remita Mobile</a>
+                <a class="nav-item nav-link text-white" href="#"></a>       
+                <a class="nav-item nav-link text-white" href="#">Developers</a>       
+              </div>
+            </div> 
+        </nav>
+    </section>
+    <!--MOBILE VIEW -->
+
+
+    <section id="mobile-nav" class="d-block d-sm-none">
+        <nav>
+            <a class="navbar-brand" href="#"><img class="img ml-0 mt-4" src="./images/remita logo 1.png"/></a>
+        </nav>
+    </section>
+
+
+
+    <section id="form" class="d-none d-sm-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div id="realForm" class="col-sm-8 card card-body mt-5">
+                    <img src="./images/registration_icon.svg"/>
+                    <h3 class="text-center">Register with Remita</h3>
+                    <p class="text-center" style="font-size: 10px;">Please enter your details below</p>
+                    <form>
+                        <div class="row">
+                          <div class="col">
+                              <label class=" mt-1 font-weight-bold">Email Address* </label>
+                            <input type="text" class="form-control" placeholder="Enter Email Address">
+                          </div>
+                          <div class="col">
+                              <label class=" mt-1 font-weight-bold">Phone Number*</label>
+                            <input type="text" class="form-control" placeholder="+234"/>
+                          </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col">
+                                <label class="mt-1 font-weight-bold">First Name*</label>
+                              <input type="text" class="form-control" placeholder=" Enter First Name">
+                            </div>
+                            <div class="col">
+                                <label class="mt-1 font-weight-bold">Last Name</label>
+                              <input type="text" class="form-control" placeholder=" Enter Last Name">
+                            </div>
+                        </div>
+                      
+                        <br>
+                        <label class="font-weight-bold">This Registration is for*</label>
+                        <select class="form-control mr-2">
+                            <option value="1">Please Select From -Self/SME/Corporate</option>
+                            <option value="2">My Personal Account</option>
+                            <option value="3">MSME-Sole Signatory</option>
+                            <option value="4">SME/Corporate-Multi Signatory</option>
+                            <option value="5">Government/MDA</option>
+                        </select>
+                    </form>
+                      
+                      <br>
+                      <form class="form-check form-check-inline" >
+                        <input  class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">I'm not a robot</label>
+                      </form>
+                      <br>
+                      <form>
+                        <div class="row">
+                            <div class="col">
+                                <button id="button" class="btn " > NEXT            ></button>
+                            </div>
+                            <div class="col">
+                                
+                            </div>
+                          </div>
+
+                      </form>
+                      
+
+
+                </div>
+                <div class="col-sm-2"></div>
+
+            </div>
+
+        </div>
+    </section>
+
+<!--Mobile view-->
+    <section id="mobileform" class="d-block d-sm-none" >
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-md-8 card card body mt-1" id="realForm">
+                    <img src="./images/registration_icon.svg"/>
+                    <h3 class="text-center">Register with Remita</h3>
+                    <p class="text-center" style="font-size: 12px;">Please enter your details below</p>
+                    <form>
+                        <label>Email Address*</label>
+                        <input type="text" class="form-control" placeholder="Enter Email Address">
+                        <br>
+                        <label>Phone Number*</label>
+                        <input type="text" class="form-control" placeholder="+234"/>
+                        <br>
+                        <label > First Name*</label>
+                        <input type="text" class="form-control" placeholder=" Enter First Name">
+                        <br>
+                        <label>Last Name*</label>
+                        <input type="text" class="form-control" placeholder=" Enter Last Name">
+                        <br>
+                        <label class="font-weight-bold">This Registration is for*</label>
+                        <select class="form-control mr-2">
+                            <option value="1">Please Select From -Self/SME/Corporate</option>
+                            <option value="2">My Personal Account</option>
+                            <option value="3">MSME-Sole Signatory</option>
+                            <option value="4">SME/Corporate-Multi Signatory</option>
+                            <option value="5">Government/MDA</option>
+                        </select>
+                        <br>
+                        <form class="form-check form-check-inline ml-5" >
+                            <input  class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">I'm not a robot</label>
+                        </form>
+                          
+                          <div class="row">
+                            <div class="col">
+                                <button id="button" class="btn " > NEXT          ></button>
+                            </div>
+                            <div class="col">
+                                
+                            </div>
+                          </div>
+
+
+
+
+
+
+
+
+                        
+                    </form>
+                </div>
+                <div class="col-md-6"></div>
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <section id="info" class="d-none d-sm-block">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-4 mt-5">
+                <h3>Contact Us </h3>
+                <p>
+                  www.systemspecs.com.ng
+                  Plot B22, Yesufu Abiodun Oniru Road, Oniru.</p>
+                  <p>
+                  Support: +234-1-6367000, +234700-7877678
+                  support@remita.net
+                </p>        
+              </div>
+              <div class="col-md-2">
+                <h1>.</h1>
+              </div>
+              <div class="col-md-2 mt-5">
+                <p>About Us</p>
+                <p>Features</p>
+                <p>Remita Mobile</p>
+              </div>
+              <div class="col-md-2 mt-5">
+                <p>Pricing</p>
+                <p>Agents and Partners</p>
+                <p>Developers</p>
+              </div>
+              <div class="col-md-2 mt-5">
+                <p>Supports and FAQS</p>
+                <p>Careers</p>
+                <p>Terms and Condition</p>
+                <p>Privacy Policy</p>             
+              </div>
+  
+            </div>
+            <div class="row">
+              <div class="col-12 ml-5 mt-5">
+                <p class="text-black">______________________________________________________________________________________________________________________________________________________________</p>
+                <p class="text-center">Copyright © 2020 SystemSpecs. All Rights Reserved | Remita is a platform designed & developed by <a href="www.systemspecs.com">SystemSpecs</a>.</p>  
+              </div>
+  
+            </div>
+  
+          </div>
+  
+    </section>
+    <!--mobile view-->
+    <section id="mobileinfo" class="d-block d-sm-none mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mt-5">
+            <h3>Contact Us </h3>
+            <p>
+              www.systemspecs.com.ng
+              Plot B22, Yesufu Abiodun Oniru Road, Oniru.</p>
+              <p>
+              Support: +234-1-6367000, +234700-7877678
+              support@remita.net
+            </p>        
+          </div>
+          
+        </div>
+        <div class="row">
+          
+          <div class="col ">
+            <p>About Us</p>
+            <p>Features</p>
+            <p>Remita Mobile</p>
+          </div>
+          <div class="col ">
+            <p>Pricing</p>
+            <p>Agents and Partners</p>
+            <p>Developers</p>
+          </div>  
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm-6">
+            <p>Supports and FAQS</p>
+            <p>Careers</p>
+            <p>Terms and Condition</p>
+            <p>Privacy Policy</p>             
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="text-black">_____________________________________________________</p>
+            <p class="text-center">Copyright © 2020 SystemSpecs. All Rights Reserved | Remita is a platform designed & developed by <a href="www.systemspecs.com">SystemSpecs</a>.</p>  
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+    </section>
+
+
+    
+    <script src="./js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>

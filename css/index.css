@@ -1,0 +1,50 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+    font-family: sans-serif;
+}
+#nav-section{
+    background-color:#c74923;
+    height:100px;
+}
+#mobile-nav{
+    background-color: #c74923;
+    height: 100px;
+}
+
+.img{
+    height: 80px;
+    margin-left: 80px;
+    margin-bottom: 0px;
+}
+
+#form{
+    height: 120vh;
+}
+#mobileform{
+    height: 100vh;
+}
+#info{
+    height: 70vh;
+    background-color:rgb(233, 229, 229);
+}
+#mobileinfo{
+    height: 110vh;
+    background-color:rgb(233, 229, 229);
+}
+
+#realForm{
+    height: 100vh;
+    background-color:rgb(233, 229, 229);
+    border: none;
+    
+}
+
+#button{
+    width: 110px;
+    background: #2ca868;
+    height: 50px;
+    color: white;
+    border: 1px solid ;
+    font-size: 18px;
+}
