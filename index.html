@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="/favicon.png" type="image/png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Remita Validation SignUp Page</title>
@@ -37,34 +38,34 @@
 
 
 
-    <section id="form" class="d-none d-sm-block">
+    <section id="form" class="d-none d-sm-block m-5">
         <div class="container">
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div id="realForm" class="col-sm-8 card card-body mt-5">
-                    <img src="./images/registration_icon.svg"/>
+                    <img class="icon" src="./images/registration_icon.svg"/>
                     <h3 class="text-center">Register with Remita</h3>
                     <p class="text-center" style="font-size: 10px;">Please enter your details below</p>
                     <form method="POST" enctype="multipart/form-data" onsubmit="return validate()">
                         <div class="row">
                           <div class="col">
                               <label class=" mt-1 font-weight-bold">Email Address* </label>
-                            <input type="text" id="email-address" class="form-control" placeholder="Enter Email Address">
+                            <input type="text" id="email-address" class="form-control" placeholder="Enter Email Address" required>
                           </div>
                           <div class="col">
                               <label class=" mt-1 font-weight-bold">Phone Number*</label>
-                            <input type="text" id="number" class="form-control" placeholder="+234"/>
+                            <input type="text" id="number" class="form-control" placeholder="+234" required/>
                           </div>
                         </div>
                         <br>
                         <div class="row">
                             <div class="col">
                                 <label class="mt-1 font-weight-bold">First Name*</label>
-                              <input type="text" id="first-name" class="form-control" placeholder=" Enter First Name">
+                              <input type="text" id="first-name" class="form-control" placeholder=" Enter First Name" required>
                             </div>
                             <div class="col">
                                 <label class="mt-1 font-weight-bold">Last Name</label>
-                              <input type="text" id="last-name" class="form-control" placeholder=" Enter Last Name">
+                              <input type="text" id="last-name" class="form-control" placeholder=" Enter Last Name" required>
                             </div>
                         </div>
                       
@@ -124,24 +125,24 @@
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-md-8 card card body mt-1" id="realForm">
-                    <img src="./images/registration_icon.svg"/>
+                    <img class="icon" src="./images/registration_icon.svg"/>
                     <h3 class="text-center">Register with Remita</h3>
                     <p class="text-center" style="font-size: 12px;">Please enter your details below</p>
                     <form method="POST" enctype="multipart/form-data" onsubmit="return validate()">
                         <label>Email Address*</label>
-                        <input type="text" id="email-address" class="form-control" placeholder="Enter Email Address">
+                        <input type="text" id="email-address" class="form-control" placeholder="Enter Email Address" required>
                         <br>
                         <label>Phone Number*</label>
-                        <input type="text" id="number" class="form-control" placeholder="+234"/>
+                        <input type="text" id="number" class="form-control" placeholder="+234" required/>
                         <br>
                         <label > First Name*</label>
-                        <input type="text" id="first-name" class="form-control" placeholder=" Enter First Name">
+                        <input type="text" id="first-name" class="form-control" placeholder=" Enter First Name" required>
                         <br>
                         <label>Last Name*</label>
-                        <input type="text" id="last-name" class="form-control" placeholder=" Enter Last Name">
+                        <input type="text" id="last-name" class="form-control" placeholder=" Enter Last Name" required>
                         <br>
                         <label class="font-weight-bold">This Registration is for*</label>
-                        <select class="form-control mr-2" id="money">
+                        <select class="form-control mr-2" id="money" required>
                             <option value="1">Please Select From -Self/SME/Corporate</option>
                             <option value="2">My Personal Account</option>
                             <option value="3">MSME-Sole Signatory</option>
@@ -154,50 +155,25 @@
                             <label class="form-check-label" for="inlineCheckbox1">I'm not a robot</label>
                         </form>
                           <form method="POST" enctype="multipart/form-data" onsubmit="return validate()" >
-                            <div class="row">
-                              <div class="col">
-                                  <button id="button" class="btn " > NEXT          ></button>
-                              </div>
-                              <div class="col">
-                                  
-                              </div>
-                            </div>
-  
+                            <button id="button" class="btn " > NEXT          ></button>
+                            <br/>
                           </form>
-                          <div  class="row">
-                            <div class="col">
-                                .
-                            </div>
-                            <div class="col">
-                              <div id="error"></div>
-                            </div>
-                          </div>
-
-
-                          
-
-
-
-
-
-
-
-                        
                     </form>
-                </div>
-                <div class="col-md-6"></div>
-
-
+                  </div>
             </div>
+            <div id="error"></div>
+
 
         </div>
+        
+
 
 
     </section>
 
 
-    <section id="info" class="d-none d-sm-block">
-        <div class="container">
+    <section  class="d-none d-sm-block">
+        <div class="container" id="info">
             <div class="row">
               <div class="col-md-4 mt-5">
                 <h3>Contact Us </h3>
@@ -230,9 +206,8 @@
               </div>
   
             </div>
-            <div class="row">
-              <div class="col-12 ml-5 mt-5">
-                <p class="text-black">______________________________________________________________________________________________________________________________________________________________</p>
+            <div class="row ">
+              <div class="col-12 ml-5 mt-5 border   ">
                 <p class="text-center">Copyright © 2020 SystemSpecs. All Rights Reserved | Remita is a platform designed & developed by <a href="www.systemspecs.com">SystemSpecs</a>.</p>  
               </div>
   
@@ -281,8 +256,7 @@
 
         </div>
         <div class="row">
-          <div class="col-12">
-            <p class="text-black">_____________________________________________________</p>
+          <div class="col-12 border">
             <p class="text-center">Copyright © 2020 SystemSpecs. All Rights Reserved | Remita is a platform designed & developed by <a href="www.systemspecs.com">SystemSpecs</a>.</p>  
           </div>
 
