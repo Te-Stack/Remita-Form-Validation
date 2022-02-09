@@ -40,7 +40,7 @@
                 </nav> 
             </div>
         </header>
-        <div class="container">
+        <div class="container"> 
 
             <div class="registration-container " style="background-color:#f8f9f8">
 
@@ -185,7 +185,7 @@
                                 <a href="https:////www.remita.net/legal/terms/">Terms and Conditions</a>
                             </li>
                             <li>
-                                <a href="https:////www.remita.net/legal/policy/">Privacy Policy</a>
+                                <a href="#">Privacy Policy</a>
                             </li>
                         </ul>
                     </div>
@@ -210,28 +210,9 @@
     <script>
         var input = document.querySelector("#phone");
         window.intlTelInput(input, {
-            // allowDropdown: false,
-            // autoHideDialCode: false,
-            // autoPlaceholder: "off",
-            // dropdownContainer: document.body,
-            // excludeCountries: ["us"],
-            // formatOnDisplay: false,
-            // geoIpLookup: function(callback) {
-
-            //     $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
-            //        var countryCode = (resp && resp.country) ? resp.country : "";
-            //         callback(countryCode);
-            //     });
-            // },
-            // hiddenInput: "full_number",
             initialCountry: "ng",
-            // localizedCountries: { 'de': 'Deutschland' },
-            // nationalMode: false,
-            // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
-            // placeholderNumberType: "MOBILE",
-            // preferredCountries: ['cn', 'jp'],
-            // separateDialCode: true,
             utilsScript: "./assets/js/utils.js",
+
         });
     </script>
 </body>
