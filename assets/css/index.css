@@ -134,6 +134,7 @@ label.error {
     background-color: #006d67;
     border-color: #006d67;
     color: #fff;
+    border-radius: 1rem;
 }
 
 .btn-remita-text {
