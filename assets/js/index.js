@@ -138,7 +138,7 @@ function fvalidation() {
 console.log(requiredErr);
  
     if (((emailErr && fnameErr) &&(lnameErr && phoneErr) && (accountErr && requiredErr))==true) {
-        alert("Form Submitted Successfully");
+        alert("Sign-up Successfully Completed");
         location.reload();   
     } else {
         return false;
