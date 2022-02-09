@@ -49,28 +49,32 @@
                     <form method="POST" enctype="multipart/form-data" onsubmit="return validate()">
                         <div class="row">
                           <div class="col">
-                              <label class=" mt-1 font-weight-bold">Email Address* </label>
+                              <label class=" mt-1 font-weight-bold">Email Address <span class="required">*</span> </label>
                             <input type="text" id="email-address" class="form-control" placeholder="Enter Email Address" required>
+                            <label for="email" class="error"></label>
                           </div>
                           <div class="col">
-                              <label class=" mt-1 font-weight-bold">Phone Number*</label>
+                              <label class=" mt-1 font-weight-bold">Phone Number<span class="required">*</span></label>
                             <input type="text" id="number" class="form-control" placeholder="+234" required/>
+                            <label for="phone" class="error"></label>
                           </div>
                         </div>
                         <br>
                         <div class="row">
                             <div class="col">
-                                <label class="mt-1 font-weight-bold">First Name*</label>
+                                <label class="mt-1 font-weight-bold">First Name<span class="required">*</span></label>
                               <input type="text" id="first-name" class="form-control" placeholder=" Enter First Name" required>
+                              <label for="first-name" class="error"></label>
                             </div>
                             <div class="col">
-                                <label class="mt-1 font-weight-bold">Last Name</label>
+                                <label class="mt-1 font-weight-bold">Last Name <span class="required">*</span></label>
                               <input type="text" id="last-name" class="form-control" placeholder=" Enter Last Name" required>
+                              <label for="last-name" class="error"></label>
                             </div>
                         </div>
                       
                         <br>
-                        <label class="font-weight-bold" >This Registration is for*</label>
+                        <label class="font-weight-bold" >This Registration is for<span class="required">*</span></label>
                         <select class="form-control mr-2" id="money">
                             <option value="1">Please Select From -Self/SME/Corporate</option>
                             <option value="2">My Personal Account</option>
@@ -78,14 +82,14 @@
                             <option value="4">SME/Corporate-Multi Signatory</option>
                             <option value="5">Government/MDA</option>
                         </select>
-                        
+                        <label for="accountType" class="error"></label>   
                     </form>
                       
                       <br>
                       <form class="form-check form-check-inline" >
                         <input  class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                        <label class="form-check-label" for="inlineCheckbox1">By Creating an Account, you agree to accept our Terms and Conditions and Privacy Policy
-                          This field is required.</label>
+                        <label class="form-check-label" for="inlineCheckbox1">By Creating an Account, you agree to accept <span class="required">our Terms and Conditions and Privacy Policy
+                          This field is required.</span></label>
                       </form>
                       <br>
                       <form onsubmit="return validate()">
@@ -98,7 +102,7 @@
                             </div>
                           </div>
                       </form>
-                      <div  class="row">
+                      <!-- <div  class="row">
                         <div class="col">
                             .
                         </div>
@@ -107,7 +111,7 @@
 
                         </div>
 
-                      </div>
+                      </div> -->
 
                       
 
